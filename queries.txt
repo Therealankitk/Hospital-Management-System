@@ -1,0 +1,5 @@
+important queries:-
+create database hospital;
+use hospital;
+CREATE TABLE hospitals(hospitalid SMALLINT NOT NULL PRIMARY KEY,hospitalname varchar(255),bedcount int(20),phonenumber varchar(10))
+CREATE TABLE doctors(doctorid int PRIMARY KEY,doctorname varchar(255),hospitalid SMALLINT NOT NULL, FOREIGN KEY(hospitalid) REFERENCES hospitals(hospitalid),speciality varchar(50),salary varchar(50),experience int(4))
