@@ -1,3 +1,4 @@
+<img src = "C:\Users\KIIT0001\Downloads\readmeimage.jpg" style="width:300px;height:100px;">
 The hospital management system is a computerized system that helps to manage the functioning of the hospital.<br>
 It is a software that is designed to streamline the process of managing a hospital. The system can be used to manage patient records, staff records, financial records, and other hospital data.<br>
 This code is based on Python integrated with a database management system of mySQl.<br>
